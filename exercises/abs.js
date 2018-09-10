@@ -13,10 +13,10 @@
 
 function abs(X) {
 
-	if (X > 0) {
- return x ;
+	if (Number(X) > 0){
+ return X ;
  } else {
- return -x;
+ return -X ;
  }
 
 }

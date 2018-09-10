@@ -8,7 +8,7 @@
 
 // Your code :
 
-function add(A, B) {
+function add(A, B){
  var resultat = Number(A) + Number(B)
 
 	return resultat;
