@@ -11,6 +11,14 @@
 
 // Your code :
 
+const min = (A, B) => {
+	if (A < B) {
+	return A
+	} else {
+	return B
+}
+}
+
 //* Begin of tests
 const assert = require('assert')
 

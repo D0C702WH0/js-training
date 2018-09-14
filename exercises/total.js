@@ -6,6 +6,14 @@
  *
  */
 
+const total = (arr) => {
+let sum = 0
+	for (i = 0, i < arr.length, i++) {
+	sum += arr
+ }
+ return sum		
+}
+
 
 //* Begin of tests
 const assert = require('assert')

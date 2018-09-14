@@ -7,7 +7,11 @@
  */
 
 // Your code :
+const sub = (A,B) =>{
+	let resultat = A - B
+	return resultat
 
+} 
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()
