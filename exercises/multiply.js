@@ -17,9 +17,9 @@ let total = 0
     total += Math.abs(a);
   }
 
-	  if  ( a < 0 && b < 0 ) {
+	  if  ( a <= 0 && b <= 0 ) {
 	    return  total ;
-	  } else if (a < 0 || b < 0) {
+	  } else if (a <= 0 || b <= 0) {
 	    return -total;
 	  } else {
 	    return Math.abs(total);
