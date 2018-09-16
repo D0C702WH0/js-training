@@ -6,10 +6,10 @@
  *
  */
 
-const total = (arr) => {
+const total = (array) => {
 let sum = 0
-	for (i = 0, i < arr.length, i++) {
-	sum += arr
+	for (let i = 0; i < array.length; i++) {
+	sum += array[i]
  }
  return sum		
 }
