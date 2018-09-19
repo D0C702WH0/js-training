@@ -9,6 +9,10 @@
 
 // Your code :
 
+const getLast = (arr) => {
+    return arr.slice
+}
+
 //* Begin of tests
 const assert = require('assert')
 

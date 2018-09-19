@@ -9,6 +9,11 @@
 
 // Your code :
 
+const getFirst = (arr) => {
+    return arr[0]
+
+}
+
 //* Begin of tests
 const assert = require('assert')
 
