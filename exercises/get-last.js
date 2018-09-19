@@ -10,7 +10,7 @@
 // Your code :
 
 const getLast = (arr) => {
-    return arr.slice
+    return arr[arr.length-1];
 }
 
 //* Begin of tests
